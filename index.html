@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevJobs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/devjobs.css">
+  <script src="assets/js/devjobs.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <div>
+        <img src="assets/img/devjobs.svg.svg" alt="">
+      </div>
+
+      <div class="headerDown">
+        <img src="assets/img/sun.svg" alt="">
+        <input class="switch" type="checkbox" id="themeChange">
+        <img src="assets/img/moon.svg" alt="">
+      </div>
+
+    </div>
+
+    <div class="inner-container">
+
+      <div class="general-input">
+        <form class="filterForm">
+
+          <div class="titleFilterArea">
+            <input class="titleFilter" type="text" name="" placeholder="Filter by title...">
+            <img class="searchIcon" src="assets/img/search-icon.svg" alt="">
+            <img class="mobileLocationIcon" src="assets/img/mobile-location-icon.svg" alt="">
+            <img class="mobileSearchIcon" src="assets/img/mobile-search-icon.svg" alt="">
+          </div>
+
+          <div class="locationArea">
+            <input class="locationFilter" type="text" name="" placeholder="Filter by location...">
+            <img class="locationIcon" src="assets/img/location-icon.svg" alt="">
+          </div>
+
+          <div class="fullTimeArea">
+            <input class="fullTimeFilter" type="checkbox" name="">
+            <p class=fullTimeText>Full Time <span class="only">Only</span></p>
+          </div>
+
+          <button class="searchBtn">Search</button>
+
+        </form>
+      </div>
+      <div class="jobList">
+
+      </div>
+      <button class="loadMoreBtn">Load More</button>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
